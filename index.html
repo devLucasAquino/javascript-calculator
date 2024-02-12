@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript-calculator</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+
+    <div class="calculator" id="calculator-layout">
+
+        <div class="calculator" id="result-area">
+            
+            <textarea id="result-text" cols="50" rows="2"></textarea>
+            <button id="result-clear" onclick="clear()">clear</button>
+
+        </div>
+
+        <div class="calculator" id="number-area">
+
+            <button class="number" id="number7" onclick="putSeven()">7</button>
+            <button class="number" id="number8" onclick="putEight()">8</button>
+            <button class="number" id="number9" onclick="putNine()">9</button>
+            <button class="operator" id="division" onclick="toDivide()">/</button>
+            <br>
+            <button class="number" id="number4" onclick="putFour()">4</button>
+            <button class="number" id="number5" onclick="putFive()">5</button>
+            <button class="number" id="number6" onclick="putSix()">6</button>
+            <button class="operator" id="multiplication" onclick="multiply()">x</button>
+            <br>
+            <button class="number" id="number1" onclick="putOne()">1</button>
+            <button class="number" id="number2" onclick="putTwo()">2</button>
+            <button class="number" id="number3" onclick="putTree()">3</button>
+            <button class="operator" id="subtraction" onclick="subtract()">-</button>
+            <br>
+            <button class="operator" id="sum" onclick="sum()">+</button>
+            <button class="number" id="number0" onclick="putZero()">-</button>
+            <button class="operator" id="decimal" onclick="putDecimal()">.</button>
+            <button class="operator" id="result" onclick="Finally()">=</button>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    
+    <script src="./src/scripts/script.js"></script>
+</body>
+</html>
