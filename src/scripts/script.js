@@ -76,10 +76,9 @@ function putDecimal(){
     textShow.innerHTML = resultString;
 }
 
-function clear(){
-    resultString = '';
-    textShow.value = resultString;
-}
+// function clear(){
+    
+// }
 
 
 function Finally(){
