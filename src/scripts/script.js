@@ -76,11 +76,6 @@ function putDecimal(){
     textShow.innerHTML = resultString;
 }
 
-// function clear(){
-    
-// }
-
-
 function Finally(){
     try {
         var resultNumber = eval(resultString);
@@ -90,4 +85,7 @@ function Finally(){
       }
    }
     
-
+   document.getElementById('result-clear').addEventListener('click', function() {
+    resultString = '';
+    textShow.innerHTML = resultString;
+});
