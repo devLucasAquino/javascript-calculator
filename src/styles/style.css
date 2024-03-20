@@ -7,19 +7,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* 100% da altura da viewport
-    margin: 0;     /* Remover margens padrão do body */
-    background-color: #fff;
+    height: 100vh;
+    background-color: #3c3c3c;
 }
 
 #calculator-layout {
-    width: 26rem;   /* Largura desejada da div */
-    height: 15rem;  /* Altura desejada da div */
-    background-color: rgba(0, 0, 0, 0.3);
+    width: 26rem;
+    height: 15rem;
+    background-color: #b5b5b5;
     border: solid 1px;
     border-radius: 1rem;
     padding: 1rem;
-    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); */
 }
 
 #result-area{
